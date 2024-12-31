@@ -1,0 +1,86 @@
+/* Header and Footer */
+header ,footer{
+    text-align:center;
+    font-weight:bold;
+    background-color: #04062beb;
+    color:#ee00ff;
+    border-radius:10px;
+}
+
+/* BlurEffect */
+header,footer,frame{
+    backdrop-filter:blur(10px);
+}
+body{
+    background-color: #ff9100;
+    color:#ffffff;
+    font-family: 'Courier New', Courier, monospace;
+    font-size:20px;
+}
+
+header{
+    padding:20px;
+    font-size:36px;
+}
+
+main{
+    display:flex;
+    flex-direction:Column; 
+    align-items: center;
+    padding:30px;
+    min-height: 70vh;
+}
+
+form{
+    background-color: #04062be3;
+    padding: 30px;
+    border-radius:5px;
+    width: 50%; 
+}
+input{
+    width:100%;
+    padding: 5px;
+    margin:5px;
+    border-radius:5px;
+}
+button{
+    margin-top: 30px; 
+    width: 100%; 
+    padding: 5px;
+    background-color: #ff9100;
+    border-radius: 10px;
+    font-size:30px;
+    font-weight: bold;
+    color:#0b073d;
+}
+
+footer{
+    padding: 10px;
+    font-size:16px;
+}
+
+a{
+    text-decoration: none;
+    color: #ee00ff;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;  
+    /* gap: 20%; */
+    background-color: #ee00ff96;
+    width: auto;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+nav a{
+    color:#0b073d;
+    font-size: 20px;
+    font-weight: bold;  
+    
+}
+
+nav a:hover{  
+}
